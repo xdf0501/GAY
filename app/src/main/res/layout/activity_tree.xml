@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_main"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title3" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="11月09日"
+            android:textColor="@color/title"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/textView" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/title"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="星期三"
+                android:layout_marginTop="18dp"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="隐私"
+                android:textColor="@color/caldroid_light_red"
+                android:textSize="20dp"
+                android:id="@+id/textView3" />
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/think"
+            android:layout_gravity="center"
+            android:id="@+id/imageView4" />
+        <ImageView
+            android:layout_marginLeft="15dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/photobutton"
+            android:layout_gravity="center"
+        android:id="@+id/imageView3" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ADEAEA"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:background="#ADEAEA"
+            android:gravity="center"
+            android:hint="标题"
+            android:textColorHint="@color/white" />
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ADEAEA"
+            android:hint="     记下自己的一个小秘密，种下一颗小树苗"
+            android:textColorHint="#007FFF" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            app:srcCompat="@drawable/gran" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#ADEAEA"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tree2"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/imageView5" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@mipmap/delete" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/tree3"
+            android:id="@+id/imageView6" />
+    </LinearLayout>
+
+
+</LinearLayout>

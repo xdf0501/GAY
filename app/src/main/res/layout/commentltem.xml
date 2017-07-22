@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="91dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="90dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/caldroid_holo_blue_dark"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="动物"
+            android:id="@+id/name" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"
+            android:text="今天我去人物园了"
+            android:id="@+id/comment" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:text="2017-04-27"
+            android:id="@+id/time" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ededed"></LinearLayout>
+</LinearLayout>
